@@ -1,0 +1,60 @@
+.userinfo {
+  position: absolute;
+  left: 25%;
+  margin-top: 17%;
+}
+
+.avatar {
+  position: relative;
+  top: 150px;
+}
+.avatar img {
+  border-radius: 50%;
+  width: 240px;
+  border-color: rgb(228, 231, 234);
+  border-width: 1px;
+}
+
+.briefinfo {
+  position: relative;
+  top: 180px;
+}
+.name {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.login {
+  font-size: 20px;
+  color: rgb(88, 96, 105);
+}
+
+.edit {
+  margin-top: 10px;
+  padding: 8px 90px;
+  border-radius: 5px;
+  background-color: rgb(250, 251, 252);
+  border-width: 1px;
+  border-color: rgb(217, 219, 219);
+}
+
+.details {
+  margin-top: 10px;
+  font-size: 11px;
+  color: rgb(88, 96, 105);
+
+}
+.others {
+  margin-top: 10px;
+  font-size: 10px;
+  margin-bottom: 20px;
+  color: rgb(36, 41, 46);
+}
+
+.division { display: block; height: 1px;
+  border: 0; border-top: 1px solid #ccc;
+  margin: 1em 0; padding: 0; }
+
+
+
