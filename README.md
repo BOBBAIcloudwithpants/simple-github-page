@@ -1,4 +1,4 @@
-Simple Github Profile Page
+# Simple Github Profile Page
 
 ## 个人信息
 - 姓名: 白家栋
