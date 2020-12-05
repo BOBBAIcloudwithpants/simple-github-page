@@ -1,27 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Simple Github Profile Page
 
-## Getting Started
+## 个人信息
+- 姓名: 白家栋
+- 学号: 18342001
+- 邮箱: baijd@mail2.sysu.edu.cn
 
-First, run the development server:
+## 运行方法
 
 ```bash
+npm install
+
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+如果您的 3000 端口没有被占用的话，此时前端程序已经启动，您可以访问 `http://localhost:3000/users/:username` 来查看效果. 
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 使用与效果展示
 
-## Learn More
+由于我前端的技术有限，一些个人主页上的模块，如: 搜索框，近期活跃度，没有能够实现。这里主要用到了获取用户信息的 api 以及获取用户 repository 的 api。使用的前端框架是 `React`.     
 
-To learn more about Next.js, take a look at the following resources:
+通过修改 url 中的用户名，您可以查看任何您想知道的用户的个人简单主页，如:
+- http://localhost:3000/users/bobbaicloudwithpants
+![](https://tva1.sinaimg.cn/large/0081Kckwgy1gldbq33yskj325g0u07ez.jpg)    
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- http://localhost:3000/users/pmlpml
+![](https://tva1.sinaimg.cn/large/0081Kckwgy1gldbsbndjzj324j0u0ajj.jpg)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
 
 ## Deploy on Vercel
 
